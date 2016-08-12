@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fabricante: MyString
+  nombre: MyString
+  certificacion: MyString
+  tecnologia: MyString
+  concepto: MyString
+  periodo_realizacion: MyString
+  fecha_vencimiento: MyString
+
+two:
+  fabricante: MyString
+  nombre: MyString
+  certificacion: MyString
+  tecnologia: MyString
+  concepto: MyString
+  periodo_realizacion: MyString
+  fecha_vencimiento: MyString

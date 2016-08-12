@@ -1,0 +1,1 @@
+json.extract! @cloud_tdp, :id, :cliente, :descripcion, :licitaciones, :pre_venta, :jefe_proyecto, :monto_inc_igv, :contrato, :conformidad, :ote, :plantilla_economica, :observacion, :created_at, :updated_at

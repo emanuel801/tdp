@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="iso-8859-1">
+<meta name="description" content="Ejemplo de HTML5">
+<meta name="keywords" content="HTML5, CSS3, JavaScript">
+
+<title>Telefonica</title>
+
+</head>
+
+<body>
+
+	<div class="row">
+		<div class="col-md-8">
+ 
+   	   <%= image_tag "slide.jpeg",:class => "img-responsive",:alt => "User Image "%>	
+  		</div>
+  
+	</div>
+
+	<div class="row">
+  		<div class="col-md-8">
+  
+  			<%= image_tag "fondo.jpg",:class => "img-responsive",:alt => "User Image "%>
+  		</div>
+  
+  		<div class="col-md-4">
+    
+    		<p class="login-box-msg"><%= image_tag "logo.png",:class => "img-responsive",:alt => "User Image "%></p>
+    
+    
+ <div class="login-box">
+ 
+  <!-- /.login-logo -->
+  		<div class="login-box-body">
+    		<p>Iniciar sesión</p>
+
+
+
+			<%= form_tag({:controller => "test_sesiones", :action => "iniciar_sesion"}, :method => "post") do %>
+			<%= label_tag "nombre_usuario", "Nombre de usuario" %>
+			<br>
+			<%= text_field_tag "nombre_usuario", "", :required => "required" %>	
+			<br>
+			<%= label_tag "contrasena", "Contraseña" %>
+			<br>
+			<%= password_field_tag "contrasena", "", :required => "required" %>
+			<br>
+			<%= submit_tag "Ingresar" %>
+   
+			<% end %>
+			<% if @error_login %>
+ <div style="color: #f00;"> El nombre de usuario o la contraseña son incorrectos. </div>
+<% end %>
+
+    <!-- /.social-auth-links -->
+
+  </div>
+  <!-- /.login-box-body -->
+</div>
+    
+  </div>
+  
+  </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
+

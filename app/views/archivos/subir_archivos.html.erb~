@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="iso-8859-1">
+<meta name="description" content="Ejemplo de HTML5">
+<meta name="keywords" content="HTML5, CSS3, JavaScript">
+
+<title>Telefonica</title>
+
+</head>
+
+<body>
+
+	
+<div class="row">
+  		<div class="col-md-8">
+  
+  			<%= image_tag "fondo.jpg",:class => "img-responsive",:alt => "User Image "%>
+  		</div>
+  
+  	<div class="col-md-4">
+
+<br>
+
+<% if @formato_erroneo %>
+  <div>
+     <h3> El formato ingresado es incorrecto. Usted sólo puede subir archivos .pdf, .doc y .docx </h3>
+
+  </div>
+<% else %>
+<br>
+  <h4> Se subio el archivo correctamente ...</h4> 
+  <%= image_tag "c.jpg",:class => "img-responsive center-block ",:alt => "User Image "%> 
+<% end %>
+
+	</div>
+  <!-- /.login-box-body -->
+</div>
+ 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+

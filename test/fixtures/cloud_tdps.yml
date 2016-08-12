@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente: MyString
+  descripcion: MyString
+  licitaciones: MyString
+  pre_venta: MyString
+  jefe_proyecto: MyString
+  monto_inc_igv: 1.5
+  contrato: MyString
+  conformidad: MyString
+  ote: MyString
+  plantilla_economica: MyString
+  observacion: MyText
+
+two:
+  cliente: MyString
+  descripcion: MyString
+  licitaciones: MyString
+  pre_venta: MyString
+  jefe_proyecto: MyString
+  monto_inc_igv: 1.5
+  contrato: MyString
+  conformidad: MyString
+  ote: MyString
+  plantilla_economica: MyString
+  observacion: MyText

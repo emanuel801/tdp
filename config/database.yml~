@@ -1,0 +1,31 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: organizador_development
+  pool: 5
+  username: root
+  
+  password: robladillo
+  host: 127.0.0.1
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: organizador_test
+  pool: 5
+  username: root
+  password: robladillo
+  host: 127.0.0.1
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: organizador_production
+  pool: 5
+  username: root
+  password: robladillo
+  host: 127.0.0.1
+

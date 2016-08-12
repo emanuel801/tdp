@@ -1,0 +1,6 @@
+<h1>Editing Cloud Marco</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @cloud_marco %> |
+<%= link_to 'Back', cloud_marcos_path %>

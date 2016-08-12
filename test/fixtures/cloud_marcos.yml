@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  provedor: MyString
+  descripcion: MyString
+  tipo: MyString
+  gasto_ingreso: MyString
+  producto: MyString
+  num_contrato: MyString
+  catalogado: MyString
+  saldo: MyString
+  moneda: MyString
+  vigencia: MyString
+
+two:
+  provedor: MyString
+  descripcion: MyString
+  tipo: MyString
+  gasto_ingreso: MyString
+  producto: MyString
+  num_contrato: MyString
+  catalogado: MyString
+  saldo: MyString
+  moneda: MyString
+  vigencia: MyString

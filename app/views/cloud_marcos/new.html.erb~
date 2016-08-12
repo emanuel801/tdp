@@ -1,0 +1,5 @@
+<h1>New Cloud Marco</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', cloud_marcos_path %>
